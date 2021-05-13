@@ -5,26 +5,32 @@
       "title": "fizzbuzz",
       "steps": [
         {
+          "id": "1",
           "instruction": "Créé une fonction appelée *fizzbuzz*.",
           "code": "function fizzbuzz() {}"
         },
         {
+          "id": "2",
           "instruction": "La fonction accepte un paramètre *number*.",
           "code": "function fizzbuzz(number) {}"
         },
         {
+          "id": "3",
           "instruction": "Si number est un multiple de 3, la fonction retourne \"fizz\".",
           "code": "function fizzbuzz() { if (number % 3 === 0) { return 'fizz'; } }"
         },
         {
+          "id": "4",
           "instruction": "Si number est un multiple de 5, la fonction retourne \"buzz\".",
           "code": "function fizzbuzz() { if (number % 3 === 0) { return 'fizz'; } if (number % 5 === 0) { return 'buzz'; } }"
         },
         {
+          "id": "5",
           "instruction": "Si number est un multiple de 3 et de 5, la fonction retourne \"fizzbuzz\".",
           "code": "function fizzbuzz() { if (number % 3 === 0 && number % 5 === 0) { return 'fizzbuzz'; } if (number % 3 === 0) { return 'fizz'; } if (number % 5 === 0) { return 'buzz'; } }"
         },
         {
+          "id": "6",
           "instruction": "Dans tous les autres cas, la fonction retourne *number*.",
           "code": "function fizzbuzz() { if (number % 3 === 0 && number % 5 === 0) { return 'fizzbuzz'; } if (number % 3 === 0) { return 'fizz'; } if (number % 5 === 0) { return 'buzz'; } return number; }"
         }
