@@ -1,0 +1,37 @@
+{
+  "dications": [
+    {
+      "id": 1,
+      "title": "fizzbuzz",
+      "steps": [
+        {
+          "instruction": "Créé une fonction appelée *fizzbuzz*.",
+          "code": "function fizzbuzz() {}"
+        },
+        {
+          "instruction": "La fonction accepte un paramètre *number*.",
+          "code": "function fizzbuzz(number) {}"
+        },
+        {
+          "instruction": "Si number est un multiple de 3, la fonction retourne \"fizz\".",
+          "code": "function fizzbuzz() { if (number % 3 === 0) { return 'fizz'; } }"
+        },
+        {
+          "instruction": "Si number est un multiple de 5, la fonction retourne \"buzz\".",
+          "code": "function fizzbuzz() { if (number % 3 === 0) { return 'fizz'; } if (number % 5 === 0) { return 'buzz'; } }"
+        },
+        {
+          "instruction": "Si number est un multiple de 3 et de 5, la fonction retourne \"fizzbuzz\".",
+          "code": "function fizzbuzz() { if (number % 3 === 0 && number % 5 === 0) { return 'fizzbuzz'; } if (number % 3 === 0) { return 'fizz'; } if (number % 5 === 0) { return 'buzz'; } }"
+        },
+        {
+          "instruction": "Dans tous les autres cas, la fonction retourne *number*.",
+          "code": "function fizzbuzz() { if (number % 3 === 0 && number % 5 === 0) { return 'fizzbuzz'; } if (number % 3 === 0) { return 'fizz'; } if (number % 5 === 0) { return 'buzz'; } return number; }"
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "name": "rocambille"
+  }
+}
