@@ -71,6 +71,42 @@
           "code": "function Counter() { const [count, setCount] = React.useState(0); return (<div><p>{count}</p><button onClick={() => setCount(count + 1)}>+1</button><button onClick={() => setCount(0)}>Reset</button></div>); }"
         }
       ]
+    },
+    {
+      "id": 3,
+      "title": "react-todo-list",
+      "steps": [
+        {
+          "id": "1",
+          "instruction": "Crée un composant React appelé *TodoList*.",
+          "code": "function TodoList() {}"
+        },
+        {
+          "id": "2",
+          "instruction": "Déclare une constante *todos* en dehors du composant. La liste doit être un tableau vide.",
+          "code": "const todos = []; function TodoList() {}"
+        },
+        {
+          "id": "3",
+          "instruction": "Ajoute trois tâches dans le tableau *todos*. Chaque tâche doit être un objet avec un *id* unique et un *label*. Les objets doivent être : `{ id: '1', label: 'Apprendre React' }`, `{ id: '2', label: 'Coder un projet' }`, `{ id: '3', label: 'Se reposer' }`.",
+          "code": "const todos = [{ id: '1', label: 'Apprendre React' }, { id: '2', label: 'Coder un projet' }, { id: '3', label: 'Se reposer' }]; function TodoList() {}"
+        },
+        {
+          "id": "4",
+          "instruction": "Fais retourner au composant une `<ul>` vide.",
+          "code": "const todos = [{ id: '1', label: 'Apprendre React' }, { id: '2', label: 'Coder un projet' }, { id: '3', label: 'Se reposer' }]; function TodoList() { return <ul></ul>; }"
+        },
+        {
+          "id": "5",
+          "instruction": "À l’intérieur de la `<ul>`, utilise `map` pour afficher chaque tâche dans un élément `<li>`.",
+          "code": "const todos = [{ id: '1', label: 'Apprendre React' }, { id: '2', label: 'Coder un projet' }, { id: '3', label: 'Se reposer' }]; function TodoList() { return (<ul>{todos.map(todo => <li>{todo.label}</li>)}</ul>); }"
+        },
+        {
+          "id": "6",
+          "instruction": "Ajoute une *key* pour chaque `<li>` en utilisant la propriété *id* de chaque tâche.",
+          "code": "const todos = [{ id: '1', label: 'Apprendre React' }, { id: '2', label: 'Coder un projet' }, { id: '3', label: 'Se reposer' }]; function TodoList() { return (<ul>{todos.map(todo => <li key={todo.id}>{todo.label}</li>)}</ul>); }"
+        }
+      ]
     }
   ],
   "profile": {
