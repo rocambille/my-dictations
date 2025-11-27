@@ -35,6 +35,42 @@
           "code": "function fizzbuzz(number) { if (number % 3 === 0 && number % 5 === 0) { return 'fizzbuzz'; } if (number % 3 === 0) { return 'fizz'; } if (number % 5 === 0) { return 'buzz'; } return number; }"
         }
       ]
+    },
+    {
+      "id": 2,
+      "title": "react-counter",
+      "steps": [
+        {
+          "id": "1",
+          "instruction": "Crée un composant React appelé *Counter*.",
+          "code": "function Counter() {}"
+        },
+        {
+          "id": "2",
+          "instruction": "Le composant doit utiliser un state appelé *count* initialisé à 0.",
+          "code": "function Counter() { const [count, setCount] = React.useState(0); }"
+        },
+        {
+          "id": "3",
+          "instruction": "Le composant doit afficher la valeur de *count* dans un élément `<p>`.",
+          "code": "function Counter() { const [count, setCount] = React.useState(0); return <p>{count}</p>; }"
+        },
+        {
+          "id": "4",
+          "instruction": "Ajoute un bouton affichant \"+1\".",
+          "code": "function Counter() { const [count, setCount] = React.useState(0); return (<div><p>{count}</p><button>+1</button></div>); }"
+        },
+        {
+          "id": "5",
+          "instruction": "Lorsque l’on clique sur le bouton, *count* doit augmenter de 1.",
+          "code": "function Counter() { const [count, setCount] = React.useState(0); return (<div><p>{count}</p><button onClick={() => setCount(count + 1)}>+1</button></div>); }"
+        },
+        {
+          "id": "6",
+          "instruction": "Ajoute un second bouton \"Reset\" qui remet *count* à 0.",
+          "code": "function Counter() { const [count, setCount] = React.useState(0); return (<div><p>{count}</p><button onClick={() => setCount(count + 1)}>+1</button><button onClick={() => setCount(0)}>Reset</button></div>); }"
+        }
+      ]
     }
   ],
   "profile": {
