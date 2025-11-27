@@ -88,7 +88,7 @@
         },
         {
           "id": "3",
-          "instruction": "Ajoute trois tâches dans le tableau *todos*. Chaque tâche doit être un objet avec un *id* unique et un *label*. Les objets doivent être : `{ id: '1', label: 'Apprendre React' }`, `{ id: '2', label: 'Coder un projet' }`, `{ id: '3', label: 'Se reposer' }`.",
+          "instruction": "Ajoute trois tâches dans le tableau *todos*. Chaque tâche doit être un objet avec un *id* unique et un *label*. Les tâches doivent être : 'Apprendre React', 'Coder un projet' et 'Se reposer'.",
           "code": "const todos = [{ id: '1', label: 'Apprendre React' }, { id: '2', label: 'Coder un projet' }, { id: '3', label: 'Se reposer' }]; function TodoList() {}"
         },
         {
