@@ -83,7 +83,7 @@
         },
         {
           "id": "2",
-          "instruction": "Ajoute un paramètre au composant, puis déstructure la prop *name* depuis celui-ci.",
+          "instruction": "Ajoute un paramètre au composant, dont tu déstructures la prop *name*.",
           "code": "function Greeting({ name }) {}"
         },
         {
