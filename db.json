@@ -38,7 +38,7 @@
     },
     {
       "id": 2,
-      "title": "react-counter",
+      "title": "react-state",
       "steps": [
         {
           "id": "1",
@@ -74,7 +74,7 @@
     },
     {
       "id": 3,
-      "title": "react-todo-list",
+      "title": "react-map",
       "steps": [
         {
           "id": "1",
