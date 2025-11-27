@@ -74,6 +74,47 @@
     },
     {
       "id": 3,
+      "title": "react-props",
+      "steps": [
+        {
+          "id": "1",
+          "instruction": "Crée un composant React appelé *Greeting*.",
+          "code": "function Greeting() {}"
+        },
+        {
+          "id": "2",
+          "instruction": "Ajoute un paramètre au composant, puis déstructure la prop *name* depuis celui-ci.",
+          "code": "function Greeting({ name }) {}"
+        },
+        {
+          "id": "3",
+          "instruction": "Le composant doit retourner un élément `<p>` vide.",
+          "code": "function Greeting({ name }) { return <p></p>; }"
+        },
+        {
+          "id": "4",
+          "instruction": "Modifie le contenu du `<p>` pour afficher : \"Bonjour \" suivi de la valeur de la prop *name*.",
+          "code": "function Greeting({ name }) { return <p>Bonjour {name}</p>; }"
+        },
+        {
+          "id": "5",
+          "instruction": "Crée un composant *App* après *Greeting*.",
+          "code": "function Greeting({ name }) { return <p>Bonjour {name}</p>; } function App() {}"
+        },
+        {
+          "id": "6",
+          "instruction": "Dans *App*, retourne une `<div>` contenant un composant *Greeting*.",
+          "code": "function Greeting({ name }) { return <p>Bonjour {name}</p>; } function App() { return (<div><Greeting /></div>); }"
+        },
+        {
+          "id": "7",
+          "instruction": "Passe une prop *name* à *Greeting* avec la valeur \"Alice\".",
+          "code": "function Greeting({ name }) { return <p>Bonjour {name}</p>; } function App() { return (<div><Greeting name=\"Alice\" /></div>); }"
+        }
+      ]
+    },
+    {
+      "id": 4,
       "title": "react-map",
       "steps": [
         {
